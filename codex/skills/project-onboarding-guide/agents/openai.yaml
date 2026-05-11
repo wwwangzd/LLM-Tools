@@ -1,0 +1,3 @@
+display_name: Project Onboarding Guide
+short_description: 总结项目结构、目录职责与启动流程
+default_prompt: 使用 $project-onboarding-guide 用中文梳理这个项目的内容、关键目录作用和启动方式。
