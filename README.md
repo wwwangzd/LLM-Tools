@@ -1,9 +1,22 @@
-# README
+# LLM Tools
 
-日常和通用的 prompt、skills、Agent 相关工具整理区。
+A personal workspace for daily LLM prompts, Codex skills, agent instructions, and model migration utilities.
 
-## 目录
-- `codex/`：Codex 相关配置与专用 skills。
-- `model-move/`：x86 + CUDA 模型迁移到 arm + 昇腾 NPU 的工具。
-- `prompts/`：通用 prompts。
-- `skills/`：通用 skills。
+Chinese version: [README.zh-CN.md](README.zh-CN.md)
+
+## Directory Overview
+- `codex/`: Codex-specific configuration, skills, and automation prompts.
+  - `AGENTS.md`: Project-level Codex instructions, including Chinese response defaults, low-intrusion fix principles, and local runtime selection rules.
+  - `automations/`
+    - `smol-ai-ai.prompt.md`: Automation prompt for reading the latest smol.ai AI news and summarizing it in Simplified Chinese.
+  - `skills/`
+    - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
+    - `project-onboarding-guide/`: Summarizes a repository based on real project files, including project overview, key directory responsibilities, and run workflow.
+- `model-move/`: Utilities for migrating x86 + CUDA model services to ARM + Ascend NPU environments.
+  - `prompts/`
+    - `migrate-project-summary.prompt.md`: Analyzes a model service project structure, key file responsibilities, and service startup order.
+    - `plan-npuMigrationCheck.prompt.md`: Checks whether a project is suitable for migration to OpenEuler + Ascend NPU based on its directory structure.
+  - `skills/`
+    - `torch-cuda-to-euler-npu-migration/`: Generates Dockerfile and requirements.txt outputs for OpenEuler + Ascend NPU migration based on project summaries and runtime details.
+- `prompts/`: Reserved for general-purpose prompts. Currently empty.
+- `skills/`: Reserved for general-purpose skills. Currently empty.
