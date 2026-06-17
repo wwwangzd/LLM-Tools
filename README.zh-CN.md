@@ -10,6 +10,7 @@
   - `automations/`
     - `smol-ai-ai.prompt.md`：每日读取 smol.ai 最新 AI 新闻并整理为中文推送的 automation prompt。
   - `skills/`
+    - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
     - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
     - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
 - `model-move/`：x86 + CUDA 模型迁移到 ARM + 昇腾 NPU 的工具。

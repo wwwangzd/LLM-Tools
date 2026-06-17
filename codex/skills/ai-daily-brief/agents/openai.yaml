@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Daily Brief"
+  short_description: "汇总今天和昨天的 AI 热点、X 动态、官方博客和技术发布"
+  default_prompt: "使用 $ai-daily-brief 总结今天最重要的 AI 新闻。"
