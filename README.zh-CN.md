@@ -1,24 +1,23 @@
 # README
 
-日常和通用的 prompt、skills、Agent 相关工具整理区。
+日常和通用的 prompt、skills、Agent 规则、工具说明和模型迁移工具整理区。
 
 英文版：[README.md](README.md)
 
 ## 目录
-- `codex/`：Codex 相关配置、专用 skills 与工具说明。
-  - `AGENTS.md`：Codex 在本项目内工作的基础约束，包含中文输出、低侵入修复、工具能力、本地运行依赖选择等规则。
-  - `skills/`
-    - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
-    - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
-    - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
-  - `tools/`
-    - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
+- `rule/`：Agent 规则与项目级工作约束。
+  - `AGENTS.md`：共享 AGENTS 指令，包含中文输出、低侵入修复、飞书工具能力、本地运行依赖选择等规则。
+- `skills/`：通用 Codex skills。
+  - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
+  - `brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
+  - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
+  - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
+- `tools/`：工具安装和使用说明。
+  - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
+- `prompts/`：通用 prompts。
+  - `smol-ai-ai.prompt.md`：每日读取 smol.ai 最新 AI 新闻并整理为中文推送的 prompt。
 - `model-move/`：x86 + CUDA 模型迁移到 ARM + 昇腾 NPU 的工具。
   - `prompts/`
     - `migrate-project-summary.prompt.md`：分析模型服务项目结构、关键文件职责与服务运行顺序。
-    - `plan-npuMigrationCheck.prompt.md`：根据目录结构判断项目是否具备 OpenEuler + Ascend NPU 迁移条件。
   - `skills/`
     - `torch-cuda-to-euler-npu-migration/`：基于项目摘要和运行环境信息生成面向 OpenEuler + Ascend NPU 的 Dockerfile 与 requirements.txt。
-- `prompts/`：通用 prompts。
-  - `smol-ai-ai.prompt.md`：每日读取 smol.ai 最新 AI 新闻并整理为中文推送的 prompt。
-- `skills/`：通用 skills 预留目录，当前暂无内容。
