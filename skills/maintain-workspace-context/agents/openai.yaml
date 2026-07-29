@@ -1,0 +1,4 @@
+interface:
+  display_name: "Maintain Workspace Context"
+  short_description: "维护多仓库工作区的协作规范、仓库上下文和知识文档体系"
+  default_prompt: "使用 $maintain-workspace-context 扫描当前多仓库工作区，并生成或更新工作区级 AGENTS.md、CONTEXT.md 和 docs。"

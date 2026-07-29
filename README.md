@@ -11,6 +11,7 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md)
   - `ai-daily-brief/`: Generates concise Chinese AI daily briefs from recent X/community discussions, official AI company updates, model releases, and technical blogs.
   - `brainstorm/`: Builds a map of possibilities for open-ended ideas before narrowing into a direction.
   - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
+  - `maintain-workspace-context/`: Maintains workspace-level collaboration rules, repository context, and shared documentation for multi-repository workspaces.
   - `project-onboarding-guide/`: Summarizes a repository based on real project files, including project overview, key directory responsibilities, and run workflow.
 - `tools/`: Tool setup and usage references.
   - `lark-cli.md`: Lark CLI installation and integration reference.

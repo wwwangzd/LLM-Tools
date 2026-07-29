@@ -1,3 +1,4 @@
-display_name: Git Safe Commit
-short_description: 审查当前修改的敏感信息风险并生成规范 commit 后提交全部内容
-default_prompt: 审查当前仓库的修改内容，重点检查敏感信息泄漏风险；如果没有明显风险，提交当前项目的所有修改，并使用规范 commit message。
+interface:
+  display_name: "Git Safe Commit"
+  short_description: "审查当前修改的敏感信息风险并生成规范 commit 后提交全部内容"
+  default_prompt: "使用 $git-safe-commit 审查当前仓库的修改；确认无敏感信息风险后，使用规范 commit message 提交全部内容。"

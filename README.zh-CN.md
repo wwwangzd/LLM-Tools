@@ -11,6 +11,7 @@
   - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
   - `brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
   - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
+  - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
   - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
 - `tools/`：工具安装和使用说明。
   - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
