@@ -13,6 +13,9 @@
   - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
   - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
   - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
+  - `systematic-debugging/`：通过证据收集和根因追踪诊断 Bug 与异常行为。
+  - `test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
+  - `verification-before-completion/`：在提交或声称完成前执行最新且与风险相称的验证。
 - `tools/`：工具安装和使用说明。
   - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
 - `prompts/`：通用 prompts。

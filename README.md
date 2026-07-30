@@ -13,6 +13,9 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md)
   - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
   - `maintain-workspace-context/`: Maintains workspace-level collaboration rules, repository context, and shared documentation for multi-repository workspaces.
   - `project-onboarding-guide/`: Summarizes a repository based on real project files, including project overview, key directory responsibilities, and run workflow.
+  - `systematic-debugging/`: Diagnoses bugs and unexpected behavior through evidence gathering and root-cause tracing.
+  - `test-driven-development/`: Guides feature and bug-fix work through the red-green-refactor cycle.
+  - `verification-before-completion/`: Requires fresh, risk-appropriate verification before completion claims or commits.
 - `tools/`: Tool setup and usage references.
   - `lark-cli.md`: Lark CLI installation and integration reference.
 - `prompts/`: General-purpose prompts.
