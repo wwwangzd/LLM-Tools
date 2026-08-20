@@ -1,5 +1,5 @@
 interface:
-  display_name: "问题清单处理"
+  display_name: "问题处理"
   short_description: "从问题清单中评估成本、修复并复核指定模块中的相关问题"
   default_prompt: "使用 $issue-solve 获取指定来源和模块的问题，评估后修复可处理项并输出结论清单。"
 
