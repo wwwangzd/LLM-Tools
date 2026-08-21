@@ -1,4 +1,4 @@
 interface:
   display_name: "Issue Solve"
-  short_description: "从问题清单中评估成本、修复并复核指定模块中的相关问题"
-  default_prompt: "使用 $issue-solve 获取指定来源和模块的问题，评估后修复可处理项并输出结论清单。"
+  short_description: "结合现有上下文评估问题处理成本，修复可控项并汇总处理结论"
+  default_prompt: "使用 $issue-solve 结合现有上下文识别并评估问题，修复成本合理的项目并汇总处理结论。"

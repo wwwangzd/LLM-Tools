@@ -22,7 +22,7 @@
 - `workspace-workflows/`：提供工作区协作开发自动化流所需的 Codex skills。
   - `brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
   - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
-  - `issue-solve/`：评估并处理指定范围的问题清单，复用既有能力并汇总已修复与未修复项。
+  - `issue-solve/`：结合上下文识别问题并评估处理成本，修复适合当前范围的项目并汇总结论。
   - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
   - `systematic-debugging/`：通过证据收集和根因追踪诊断 Bug 与异常行为。
   - `test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
