@@ -20,10 +20,10 @@
   - `skills/`
     - `torch-cuda-to-euler-npu-migration/`：基于项目摘要和运行环境信息生成面向 OpenEuler + Ascend NPU 的 Dockerfile 与 requirements.txt。
 - `workspace-workflows/`：提供工作区协作开发自动化流所需的 Codex skills。
-  - `workspace-workflows/brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
-  - `workspace-workflows/git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
-  - `workspace-workflows/issue-solve/`：评估并处理指定范围的问题清单，复用既有能力并汇总已修复与未修复项。
-  - `workspace-workflows/maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
-  - `workspace-workflows/systematic-debugging/`：通过证据收集和根因追踪诊断 Bug 与异常行为。
-  - `workspace-workflows/test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
-  - `workspace-workflows/verification-before-completion/`：在提交或声称完成前执行最新且与风险相称的验证。
+  - `brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
+  - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
+  - `issue-solve/`：评估并处理指定范围的问题清单，复用既有能力并汇总已修复与未修复项。
+  - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
+  - `systematic-debugging/`：通过证据收集和根因追踪诊断 Bug 与异常行为。
+  - `test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
+  - `verification-before-completion/`：在提交或声称完成前执行最新且与风险相称的验证。
