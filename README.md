@@ -22,8 +22,8 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md)
 - `workspace-workflows/`: Codex skills for workspace collaboration and development automation flows.
   - `brainstorm/`: Builds a map of possibilities for open-ended ideas before narrowing into a direction.
   - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
-  - `issue-solve/`: Infers issues from context, assesses cost and decision dependencies, resolves manageable items, and summarizes outcomes.
+  - `issue-solve/`: Confirms, organizes, assesses, and resolves one or more issues according to project requirements.
   - `maintain-workspace-context/`: Maintains workspace-level collaboration rules, repository context, and shared documentation for multi-repository workspaces.
-  - `systematic-debugging/`: Diagnoses bugs and unexpected behavior through evidence gathering and root-cause tracing.
+  - `systematic-debugging/`: Investigates the root cause of an individual technical issue and supports targeted fixes.
   - `test-driven-development/`: Guides feature and bug-fix work through the red-green-refactor cycle.
   - `verification-before-completion/`: Requires fresh, risk-appropriate verification before completion claims or commits.

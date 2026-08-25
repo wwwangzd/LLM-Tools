@@ -1,4 +1,0 @@
-interface:
-  display_name: "Issue Solve"
-  short_description: "结合现有上下文评估问题处理成本，修复可控项并汇总处理结论"
-  default_prompt: "使用 $issue-solve 结合现有上下文识别并评估问题，修复成本合理的项目并汇总处理结论。"
