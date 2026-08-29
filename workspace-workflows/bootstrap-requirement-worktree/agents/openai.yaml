@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bootstrap Requirement Worktree"
+  short_description: "记录需求来源和 PRD 链接，并从最新默认分支创建开发工作树"
+  default_prompt: "使用 $bootstrap-requirement-worktree 记录需求名称、来源与 PRD 链接，并准备开发 worktree。"

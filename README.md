@@ -20,6 +20,7 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md)
   - `skills/`
     - `torch-cuda-to-euler-npu-migration/`: Generates Dockerfile and requirements.txt outputs for OpenEuler + Ascend NPU migration based on project summaries and runtime details.
 - `workspace-workflows/`: Codex skills for workspace collaboration and development automation flows.
+  - `bootstrap-requirement-worktree/`: Records requirement source and PRD references, then creates isolated worktrees from the latest remote default branches.
   - `brainstorm/`: Builds a map of possibilities for open-ended ideas before narrowing into a direction.
   - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
   - `issue-solve/`: Confirms, organizes, assesses, and resolves one or more issues according to project requirements.
