@@ -21,9 +21,9 @@
     - `torch-cuda-to-euler-npu-migration/`：基于项目摘要和运行环境信息生成面向 OpenEuler + Ascend NPU 的 Dockerfile 与 requirements.txt。
 - `workspace-workflows/`：提供工作区协作开发自动化流所需的 Codex skills。
   - `bootstrap-requirement-worktree/`：归档需求名称、来源与 PRD 链接，并从目标仓库最新远端默认分支创建隔离 worktree。
-  - `brainstorm/`：在开放性想法收敛前，先构建可选方向和影响分组的可能性地图。
+  - `brainstorm/`：针对方向尚未确定的工作决策发散思路并比较方案。
   - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
-  - `issue-solve/`：按项目规范确认、整理和评估一个或多个问题，并按要求修复和汇总结论。
+  - `issue-solve/`：整理并评估问题、改进或实现需求，按用户规则实施并汇总结果，适用于单项和清单。
   - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
   - `systematic-debugging/`：针对单个技术问题分析根因，并支持实施针对性修复。
   - `test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
