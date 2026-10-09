@@ -5,15 +5,16 @@
 英文版：[README.md](README.md)
 
 ## 目录
-- `rule/`：Agent 规则与项目级工作约束。
-  - `AGENTS.md`：共享 AGENTS 指令，包含中文输出、低侵入修复、飞书工具能力、本地运行依赖选择等规则。
-- `skills/`：通用 Codex skills。
-  - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
-  - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
-- `tools/`：工具安装和使用说明。
-  - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
-- `prompts/`：通用 prompts。
-  - `smol-ai-ai.prompt.md`：每日读取 smol.ai 最新 AI 新闻并整理为中文推送的 prompt。
+- `general/`：汇集通用 prompts、Agent 规则、Codex skills 和工具说明。
+  - `prompts/`：通用 prompts。
+    - `smol-ai-ai.prompt.md`：每日读取 smol.ai 最新 AI 新闻并整理为中文推送的 prompt。
+  - `rule/`：Agent 规则与项目级工作约束。
+    - `AGENTS.md`：共享 AGENTS 指令，包含中文输出、低侵入修复、飞书工具能力、本地运行依赖选择等规则。
+  - `skills/`：通用 Codex skills。
+    - `ai-daily-brief/`：生成中文 AI 热点简报，汇总近两天 X/社区讨论、AI 公司官方更新、模型发布和技术博客。
+    - `project-onboarding-guide/`：基于仓库真实文件梳理项目概览、关键目录职责与运行流程。
+  - `tools/`：工具安装和使用说明。
+    - `lark-cli.md`：飞书 / Lark CLI 安装与接入说明。
 - `model-move/`：x86 + CUDA 模型迁移到 ARM + 昇腾 NPU 的工具。
   - `prompts/`
     - `migrate-project-summary.prompt.md`：分析模型服务项目结构、关键文件职责与服务运行顺序。

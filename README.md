@@ -5,15 +5,16 @@ A personal workspace for daily LLM prompts, Codex skills, agent rules, tool refe
 Chinese version: [README.zh-CN.md](README.zh-CN.md)
 
 ## Directory Overview
-- `rule/`: Agent rules and project-level operating instructions.
-  - `AGENTS.md`: Shared AGENTS instructions, including Chinese response defaults, low-intrusion fix principles, Lark tool guidance, and local runtime selection rules.
-- `skills/`: General Codex skills.
-  - `ai-daily-brief/`: Generates concise Chinese AI daily briefs from recent X/community discussions, official AI company updates, model releases, and technical blogs.
-  - `project-onboarding-guide/`: Summarizes a repository based on real project files, including project overview, key directory responsibilities, and run workflow.
-- `tools/`: Tool setup and usage references.
-  - `lark-cli.md`: Lark CLI installation and integration reference.
-- `prompts/`: General-purpose prompts.
-  - `smol-ai-ai.prompt.md`: Prompt for reading the latest smol.ai AI news and summarizing it in Simplified Chinese.
+- `general/`: Reusable prompts, agent rules, Codex skills, and tool references.
+  - `prompts/`: General-purpose prompts.
+    - `smol-ai-ai.prompt.md`: Prompt for reading the latest smol.ai AI news and summarizing it in Simplified Chinese.
+  - `rule/`: Agent rules and project-level operating instructions.
+    - `AGENTS.md`: Shared AGENTS instructions, including Chinese response defaults, low-intrusion fix principles, Lark tool guidance, and local runtime selection rules.
+  - `skills/`: General Codex skills.
+    - `ai-daily-brief/`: Generates concise Chinese AI daily briefs from recent X/community discussions, official AI company updates, model releases, and technical blogs.
+    - `project-onboarding-guide/`: Summarizes a repository based on real project files, including project overview, key directory responsibilities, and run workflow.
+  - `tools/`: Tool setup and usage references.
+    - `lark-cli.md`: Lark CLI installation and integration reference.
 - `model-move/`: Utilities for migrating x86 + CUDA model services to ARM + Ascend NPU environments.
   - `prompts/`
     - `migrate-project-summary.prompt.md`: Analyzes a model service project structure, key file responsibilities, and service startup order.
