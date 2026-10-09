@@ -25,6 +25,5 @@
   - `git-safe-commit/`：审查当前 Git 改动的敏感信息风险，并在通过后生成规范 commit message 完成提交。
   - `issue-solve/`：整理并评估问题、改进或实现需求，按用户规则实施并汇总结果，适用于单项和清单。
   - `maintain-workspace-context/`：维护多仓库工作区的协作规范、仓库上下文和共享文档。
-  - `systematic-debugging/`：针对单个技术问题分析根因，并支持实施针对性修复。
   - `test-driven-development/`：使用红—绿—重构循环指导功能开发和 Bug 修复。
   - `verification-before-completion/`：在提交或声称完成前执行最新且与风险相称的验证。

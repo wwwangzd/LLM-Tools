@@ -25,6 +25,5 @@ Chinese version: [README.zh-CN.md](README.zh-CN.md)
   - `git-safe-commit/`: Reviews Git changes for sensitive information and creates a conventional commit after the review passes.
   - `issue-solve/`: Assesses and implements issues, improvements, or requested capabilities, for both single items and issue lists.
   - `maintain-workspace-context/`: Maintains workspace-level collaboration rules, repository context, and shared documentation for multi-repository workspaces.
-  - `systematic-debugging/`: Investigates the root cause of an individual technical issue and supports targeted fixes.
   - `test-driven-development/`: Guides feature and bug-fix work through the red-green-refactor cycle.
   - `verification-before-completion/`: Requires fresh, risk-appropriate verification before completion claims or commits.
