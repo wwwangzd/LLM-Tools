@@ -62,7 +62,7 @@
 | --- | --- |
 | <任务类型> | `<repo>/README.md`、`<repo>/docs/...` |
 | <接口或契约> | `<repo>/path/to/contract` |
-| <跨仓库主题> | `docs/<category>/<topic>.md` |
+| <跨仓库主题> | `docs/<topic>.md` 或 `docs/<topic>/README.md` |
 
 ## 常用验证
 
@@ -76,14 +76,15 @@ cd <repo-a>
 
 ## docs
 
-新建文档体系时可参考：
+按主题聚合、按内容拆分：简单主题使用单个文件，材料较多时使用主题目录。
 
 ```text
 docs/
-├── README.md
-├── requirements/
-├── designs/
-└── implementation/
+├── README.md          # 主题索引
+├── <topic-a>/
+│   ├── README.md      # 主题概况与材料入口
+│   └── <document>.md  # 按内容拆分的过程材料
+└── <topic-b>.md       # 单文件主题
 ```
 
 `docs/README.md`：
@@ -91,24 +92,25 @@ docs/
 ```markdown
 # 工作区文档
 
-| 主题 | 类型 | 状态 | 相关仓库 | 文档 |
-| --- | --- | --- | --- | --- |
-| <主题> | 需求 / 设计 / 实现 | 草案 / 已确认 / 已落地 / 归档 | `<repo-a>`、`<repo-b>` | [`<标题>`](<relative-path>) |
+| 主题 | 状态 | 相关仓库 | 文档 |
+| --- | --- | --- | --- |
+| <主题> | <当前状态> | `<repo-a>`、`<repo-b>` | [`<标题>`](<relative-path>) |
 ```
 
-主题文档：
+主题文档或主题目录的 `README.md`：
 
 ```markdown
 # <主题>
 
-- 状态：<状态>
+- 来源：<链接或说明>
+- 状态：<当前状态>
 - 相关仓库：`<repo-a>`、`<repo-b>`
 
 ## 背景与目标
 
-## <需求、设计或实现>
+## 过程与结论
 
-## 验证与验收
+<过程记录与结论，或相关材料链接>
 
 ## 待确认事项
 ```
